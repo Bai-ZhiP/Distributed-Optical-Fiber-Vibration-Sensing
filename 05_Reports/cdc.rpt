@@ -1,0 +1,35 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Oct 26 11:05:33 2026
+| Host         : fight_unfair running 64-bit major release  (build 9200)
+| Command      : report_cdc -file [build workspace]
+| Design       : design_1_wrapper
+| Device       : 7z035-ffg676
+| Speed File   : -2  PRODUCTION 1.12 2019-11-22
+--------------------------------------------------------------------------------------------------------------------------
+
+CDC Report
+
+Severity  Source Clock                                                                                Destination Clock                                                                           CDC Type                 Exceptions               Endpoints  Safe  Unsafe  Unknown  No ASYNC_REG  
+--------  ------------------------------------------------------------------------------------------  ------------------------------------------------------------------------------------------  -----------------------  -----------------------  ---------  ----  ------  -------  ------------  
+Critical  clk_fpga_0                                                                                  adc2_dco_250m                                                                               No Common Primary Clock  Asynch Clock Groups            176    98       0       78             0  
+Critical  adc2_dco_250m                                                                               clk_fpga_0                                                                                  No Common Primary Clock  Asynch Clock Groups            237   218      19        0           171  
+Critical  clkout0                                                                                     clk_fpga_0                                                                                  No Common Primary Clock  Max Delay Datapath Only         35     3       0       32             0  
+Critical  clk_fpga_0                                                                                  clk_out1_design_1_axi_ethernet_0_refclk_3                                                   No Common Primary Clock  False Path                       1     0       1        0             0  
+Critical  clk_fpga_0                                                                                  clk_out2_design_1_axi_ethernet_0_refclk_3                                                   No Common Primary Clock  False Path                       2     1       1        0             0  
+Critical  clk_fpga_0                                                                                  clkout0                                                                                     No Common Primary Clock  Max Delay Datapath Only        261   199       9       53             0  
+Critical  rgmii_rxc                                                                                   clkout0                                                                                     No Common Primary Clock  Max Delay Datapath Only         58    57       0        1             0  
+Critical  clk_fpga_0                                                                                  rgmii_rxc                                                                                   No Common Primary Clock  Max Delay Datapath Only        534   140       6      388             0  
+Warning   adc1_dco_250m                                                                               clk_fpga_0                                                                                  No Common Primary Clock  Asynch Clock Groups             24    24       0        0            24  
+Warning   clkout0_1                                                                                   clk_fpga_0                                                                                  No Common Primary Clock  None                            21    21       0        0            21  
+Warning   input port clock                                                                            clk_fpga_0                                                                                  No Common Primary Clock  False Path                       2     2       0        0             1  
+Info      input port clock                                                                            adc2_dco_250m                                                                               No Common Primary Clock  False Path                       1     1       0        0             0  
+Info      clk_out2_design_1_axi_ethernet_0_refclk_3                                                   clk_fpga_0                                                                                  No Common Primary Clock  False Path                       1     1       0        0             0  
+Info      dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK  clk_fpga_0                                                                                  No Common Primary Clock  Max Delay Datapath Only          9     9       0        0             0  
+Info      rgmii_rxc                                                                                   clk_fpga_0                                                                                  No Common Primary Clock  False Path                       3     3       0        0             0  
+Info      clkout1                                                                                     clkout0                                                                                     Safely Timed             None                             3     3       0        0             0  
+Info      clk_fpga_0                                                                                  clkout1                                                                                     No Common Primary Clock  False Path                       2     2       0        0             0  
+Info      clkout0                                                                                     clkout1                                                                                     Safely Timed             None                             2     2       0        0             0  
+Info      clk_fpga_0                                                                                  dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK  No Common Primary Clock  Max Delay Datapath Only          2     2       0        0             0  
+

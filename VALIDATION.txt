@@ -1,0 +1,9 @@
+提交检查记录 2026-10-29
+ARM：配套 ARM GNU 10.3.1 完成全部应用源文件编译和 ELF 链接，退出码 0；存在 BSP 宏重定义警告。
+FPGA：在独立目录中使用 Vivado 2020.1 成功打开重定位工程并读取 Block Design。
+缺少历史生成 DCP/cache 的提示属于源代码包预期情况，构建脚本会重新生成 IP。
+本轮未重新进行完整 FPGA 综合布线，也未对正在运行的开发板重新下载。
+Python：所有提交的 Python 文件通过语法解析。
+PowerShell：主机启动脚本通过语法解析。
+上位机 GUI：本轮未重新编译 MATLAB EXE；交付算法和 GUI 源码及编译入口。
+版权：保留 ALINX、Xilinx 及 BSP/lwIP 文件的原版权和许可说明。

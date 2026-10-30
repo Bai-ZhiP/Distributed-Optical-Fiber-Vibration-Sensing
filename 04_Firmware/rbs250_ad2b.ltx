@@ -1,0 +1,1199 @@
+{
+    "ltx_root": {
+        "version": 4,
+        "minor": 0,
+        "ltx_data": [
+            {
+                "name": "EDA_PROBESET",
+                "active": true,
+                "debug_cores": [
+                    {
+                        "type": "XSDB_V3",
+                        "name": "dbg_hub",
+                        "spec": "labtools_xsdbm_v3",
+                        "clk_input_freq_hz": "100000000"
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "u_ila_das_status",
+                        "spec": "labtools_ila_v6",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 0,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "2E547B834D2854AFAF509005575D78E9",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 0,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/aresetn",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 1,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/trig_in",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 2,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/sys_pll_m0/locked",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe3",
+                                "id": 3,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/ad9518_pll_locked",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 4,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 9,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/clk_lut_index",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/clk_lut_index[9]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/clk_lut_index[8]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/clk_lut_index[7]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/clk_lut_index[6]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/clk_lut_index[5]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/clk_lut_index[4]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/clk_lut_index[3]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/clk_lut_index[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/clk_lut_index[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/clk_lut_index[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe5",
+                                "id": 5,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 9,
+                                "portIndex": 5,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/spi_config_adc1/lut_index_reg_n_0_[9]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/spi_config_adc1/lut_index_reg_n_0_[8]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/spi_config_adc1/lut_index_reg_n_0_[7]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/spi_config_adc1/lut_index_reg_n_0_[6]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/spi_config_adc1/lut_index_reg_n_0_[5]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/spi_config_adc1/lut_index_reg_n_0_[4]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/spi_config_adc1/lut_index_reg_n_0_[3]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/spi_config_adc1/lut_index_reg_n_0_[2]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/spi_config_adc1/lut_index_reg_n_0_[1]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/spi_config_adc1/lut_index_reg_n_0_[0]",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe6",
+                                "id": 6,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 15,
+                                "portIndex": 6,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks0",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks0[15]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks0[14]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks0[13]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks0[12]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks0[11]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks0[10]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks0[9]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks0[8]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks0[7]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks0[6]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks0[5]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks0[4]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks0[3]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks0[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks0[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks0[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe6",
+                                "id": 7,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 16,
+                                "rightIndex": 79,
+                                "portIndex": 6,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[63]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[62]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[61]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[60]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[59]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[58]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[57]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[56]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[55]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[54]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[53]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[52]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[51]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[50]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[49]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[48]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[47]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[46]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[45]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[44]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[43]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[42]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[41]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[40]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[39]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[38]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[37]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[36]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[35]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[34]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[33]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[32]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[31]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[30]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[29]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[28]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[27]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[26]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[25]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[24]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[23]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[22]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[21]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[20]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[19]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[18]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[17]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[16]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[15]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[14]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[13]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[12]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[11]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[10]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[9]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[8]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[7]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[6]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[5]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[4]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[3]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/adc_ticks[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe7",
+                                "id": 8,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 7,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[31]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[30]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[29]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[28]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[27]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[26]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[25]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[24]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[23]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[22]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[21]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[20]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[19]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[18]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[17]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[16]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[15]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[14]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[13]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[12]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[11]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[10]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[9]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[8]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[7]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[6]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[5]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[4]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[3]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/trigger_count_reg[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe8",
+                                "id": 9,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 8,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/sample_count",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[31]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[30]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[29]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[28]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[27]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[26]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[25]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[24]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[23]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[22]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[21]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[20]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[19]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[18]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[17]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[16]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[15]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[14]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[13]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[12]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[11]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[10]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[9]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[8]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[7]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[6]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[5]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[4]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[3]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/sample_count[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe9",
+                                "id": 10,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 9,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/frame_toggle_wr",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 11,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/fifo_full",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe11",
+                                "id": 12,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 11,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/fifo_empty",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe12",
+                                "id": 13,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 12,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/fifo_wr_rst_busy",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe13",
+                                "id": 14,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 13,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/fifo_rd_rst_busy",
+                                        "isBus": false,
+                                        "parentNetId": 172
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe14",
+                                "id": 15,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 14,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[31]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[30]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[29]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[28]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[27]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[26]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[25]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[24]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[23]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[22]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[21]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[20]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[19]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[18]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[17]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[16]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[15]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[14]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[13]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[12]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[11]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[10]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[9]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[8]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[7]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[6]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[5]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[4]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[3]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[2]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[1]",
+                                        "isBus": false
+                                    },
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/beat_count_reg_n_0_[0]",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe15",
+                                "id": 16,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 15,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/m_axis_tready",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe16",
+                                "id": 17,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 16,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/m_axis_tvalid",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe17",
+                                "id": 18,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 11,
+                                "portIndex": 17,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_a_d0",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_a_d0[11]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_a_d0[10]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_a_d0[9]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_a_d0[8]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_a_d0[7]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_a_d0[6]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_a_d0[5]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_a_d0[4]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_a_d0[3]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_a_d0[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_a_d0[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_a_d0[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe18",
+                                "id": 19,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 11,
+                                "portIndex": 18,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_b_d0",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_b_d0[11]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_b_d0[10]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_b_d0[9]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_b_d0[8]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_b_d0[7]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_b_d0[6]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_b_d0[5]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_b_d0[4]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_b_d0[3]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_b_d0[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_b_d0[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc1_data_b_d0[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe19",
+                                "id": 20,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 11,
+                                "portIndex": 19,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_a_d0",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_a_d0[11]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_a_d0[10]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_a_d0[9]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_a_d0[8]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_a_d0[7]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_a_d0[6]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_a_d0[5]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_a_d0[4]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_a_d0[3]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_a_d0[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_a_d0[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_a_d0[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe20",
+                                "id": 21,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 11,
+                                "portIndex": 20,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_b_d0",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_b_d0[11]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_b_d0[10]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_b_d0[9]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_b_d0[8]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_b_d0[7]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_b_d0[6]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_b_d0[5]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_b_d0[4]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_b_d0[3]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_b_d0[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_b_d0[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_frontend/adc2_data_b_d0[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "parent_nets": [
+                    {
+                        "id": 172,
+                        "name": "design_1_i/adc_capture_axis_0/inst/u_adc_fifo/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.fifo_rd_rst_ic_reg_0",
+                        "state_reg": [
+                            {
+                                "name": "design_1_i/adc_capture_axis_0/inst/u_adc_fifo/gnuram_async_fifo.xpm_fifo_base_inst/FSM_sequential_gen_fwft.curr_fwft_state_reg[0]",
+                                "states": [
+                                    {
+                                        "name": "invalid",
+                                        "val": "00"
+                                    },
+                                    {
+                                        "name": "stage1_valid",
+                                        "val": "01"
+                                    },
+                                    {
+                                        "name": "both_stages_valid",
+                                        "val": "10"
+                                    },
+                                    {
+                                        "name": "stage2_valid",
+                                        "val": "11"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
